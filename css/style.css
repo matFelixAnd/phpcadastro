@@ -1,0 +1,58 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+#flImage {
+    display: none;
+   
+}
+
+.max-width {
+    max-width: 500px;
+    min-width: 250px;
+    width: 100%;
+
+}
+
+.imgContainer {
+    width: 100%;
+    max-width:300px;
+    min-width: 250px;
+    margin-top: 10%;
+    background-color: #eee;
+    border: 5px solid #ccc;
+    border-radius: 50%;
+    
+   
+}
+
+#imgPhoto {
+    
+    margin-left: 75px;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    background-color: #eee;
+    border: 5px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background .3s;
+
+}
+
+.texto-foto {
+    margin-left: 90px;
+    margin-bottom: 12px;
+}
+
+#imgPhoto:hover {
+    background-color: rgb(168, 122, 158);
+    border: 5px solid #111 ;
+
+}
+
